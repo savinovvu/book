@@ -1,0 +1,292 @@
+Понимание общей концепции Spring Boot	Spring	Junior	0	0	0
+0
+
+Какие есть способы тестирование spring boot приложений?	Spring	Middle	0	0	0
+0
+
+
+IOC что это такое и как связано со Spring	Spring	Junior	0	0	0
+0
+
+
+
+
+
+
+Что такое context и что он в себе хранит?	Spring	Junior	0	0	0
+0
+
+
+
+
+
+
+Из чего состоит spring	Spring	Junior	0	0	0
+0
+
+
+Из каких этапов состоит жизненный цикл  bean'а	Spring	Middle	0	0	0
+0
+
+
+
+
+
+
+Почем не выполняется preDestroy для prototype?	Spring	Middle	0	0	0
+0
+
+
+автоконфигурация	Spring	Middle	0	0	0
+0
+
+
+
+
+
+
+Что такое starters и что является результатом его работы	Spring	Middle	0	0	0
+0
+
+
+аннтотации transactions  async	Spring	Middle	0	0	0
+0
+
+
+
+bean life cycle	Spring	Middle	0	0	0
+0
+
+
+bean scopes	Spring	Middle	0	0	0
+0
+
+
+bpp && bfpp	Spring	Senior	0	0	0
+0
+
+
+
+
+
+
+как работает генерация proxy	Spring	Senior	0	0	0
+0
+
+
+CORE
+
+В чем разница между BeanFactory и ApplicationContext? Почему в 99% случаев мы используем ApplicationContext?
+
+Как заставить бин создаваться не через конструктор, а через статический или нестатический фабричный метод? (Знание @Bean, @Configuration и FactoryBean интерфейса).
+
+
+Профили и Проперти.
+
+Как вы организуете конфигурацию для разных окружений (dev, staging, prod)? (Ожидается: профили, @PropertySource, PropertySourcesPlaceholderConfigurer / PropertyResolver, Spring Cloud Config для Senior+).
+
+Что такое Environment абстракция в Spring и для чего она нужна?
+
+
+Условная конфигурация.
+Как работает @Conditional? Приведите пример, когда вы создавали свой кастомный Condition.
+
+Как @Profile реализован "под капотом"? (Ожидается знание, что это мета-аннотация над @Conditional).
+
+
+Порядок загрузки контекста.
+Что такое @DependsOn и когда его необходимо использовать?
+
+Как контролировать порядок инициализации бинов? (@Order, Ordered интерфейс, PriorityOrdered).
+
+
+AOP (Aspect-Oriented Programming)
+
+Какие два типа прокси создает Spring AOP? В чем ключевая разница между JDK Dynamic Proxy и CGLIB?
+
+Почему вызов метода внутри одного класса, помеченный @Transactional или @Cacheable, не работает? (Проблема "self-invocation").
+
+Как выбор механизма прокси влияет на final классы и методы?
+
+
+Жизненный цикл Advice.
+
+Какие виды Advice вы знаете? (@Before, @After, @AfterReturning, @AfterThrowing, @Around).
+
+
+В каком порядке выполняются аспекты, если их несколько? Как этим управлять?
+
+
+4. DATA JPA
+Транзакции.
+
+Детально объясните механизм работы @Transactional. Как работает прокси при его использовании?
+
+Какие есть уровни изоляции и распространения (Propagation) транзакций? Объясните разницу между PROPAGATION_REQUIRES_NEW и PROPAGATION_NESTED. В каких реальных сценариях вы бы использовали каждый из них?
+
+Где должен находиться @Transactional - на сервисе или на репозитории? Почему?
+
+Что такое "read-only" транзакция и какие оптимизации она дает?
+
+Интеграция с JPA/Hibernate.
+
+Как работает @Transactional в связке с Hibernate Session / JPA EntityManager? (Концепция "session-per-request").
+
+Что такое OpenSessionInView антипаттерн? Какие у него плюсы и минусы? Почему его часто не рекомендуют использовать?
+
+5. Testing
+Стратегии тестирования.
+
+В чем разница между @SpringBootTest, @WebMvcTest, @DataJpaTest и @JsonTest? Какой аннотацией вы воспользуетесь для разных видов тестов и почему?
+
+Как вы мокаете бины в Spring-тесте? (@MockBean, @SpyBean).
+
+Что такое TestEntityManager и зачем он нужен?
+
+6. Производительность и Понимание "Под Капотом"
+Производительность контекста.
+
+Что влияет на время старта Spring-контекста? Как его можно ускорить?
+
+Что такое "ленивая инициализация" (Lazy Init)? Какие у нее плюсы и минусы?
+
+
+
+Разрешение зависимостей.
+
+Что происходит, если есть несколько бинов-кандидатов одного типа? Как разрешается эта неоднозначность (Autowiring Ambiguity)? (Ожидается: @Primary, @Qualifier, имя бина).
+
+Как работает @Autowired? В каком порядке ищется подходящий бин?
+
+
+================================================================================
+
+1. Spring Core & Context
+Как Spring управляет жизненным циклом бинов?
+Объясните этапы: инстанцирование, внедрение зависимостей, инициализация (@PostConstruct, InitializingBean), уничтожение (@PreDestroy, DisposableBean).
+
+Чем отличается BeanFactory от ApplicationContext?
+ApplicationContext предоставляет расширенные возможности (AOP, международализация, событийная модель).
+
+Как работает механизм BeanPostProcessor?
+Примеры: @Autowired, @PostConstruct, кастомные обработчики.
+
+Что такое условие создания бина через @Conditional?
+Пример использования для профилей или кастомных условий.
+
+2. Транзакции
+Как работают транзакции в Spring?
+Объясните PlatformTransactionManager, проксирование через AOP, аннотацию @Transactional.
+
+В чем разница между PROPAGATION_REQUIRES_NEW и PROPAGATION_NESTED?
+REQUIRES_NEW всегда создает новую транзакцию, NESTED использует savepoints внутри существующей.
+
+Почему @Transactional не работает на private методах?
+Проксирование на основе AOP требует видимости методов.
+
+Как обработать исключения в транзакциях?
+rollbackFor, noRollbackFor, взаимодействие с checked/unchecked исключениями.
+
+3. Spring Boot
+Как работает автоконфигурация в Spring Boot?
+Механизм spring.factories, условия @ConditionalOnClass, @EnableAutoConfiguration.
+
+Как переопределить автоконфигурацию?
+Создание собственного бина с высшим приоритетом (@Primary, @Order).
+
+В чем разница между @Component, @Service, @Repository?
+@Repository добавляет трансляцию исключений JDBC в DataAccessException.
+
+Как кастомизировать встроенный сервер (Tomcat)?
+Через application.properties или WebServerFactoryCustomizer.
+
+4. Spring MVC & Web
+Жизненный цикл запроса в Spring MVC.
+Роль DispatcherServlet, HandlerMapping, ViewResolver, интерцепторы.
+
+Как обработать исключения глобально?
+Через @ControllerAdvice и @ExceptionHandler.
+
+В чем разница между @RequestParam и @PathVariable?
+@RequestParam — параметры запроса, @PathVariable — часть URL.
+
+Как реализовать асинхронные запросы?
+Использование DeferredResult, CompletableFuture, @Async.
+
+5. Spring Data & JPA
+Как работает ленивая загрузка в Hibernate?
+Прокси-объекты, проблемы LazyInitializationException вне транзакции.
+
+Что такое N+1 проблема и как ее решить?
+Примеры: @EntityGraph, JOIN FETCH в JPQL.
+
+Как настроить кэширование второго уровня?
+Интеграция с Ehcache, Redis, аннотация @Cacheable.
+
+В чем разница между CrudRepository и JpaRepository?
+JpaRepository добавляет пагинацию, batch-операции, флаush.
+
+6. Spring Security
+Как работает аутентификация через JWT?
+Создание JwtAuthenticationFilter, интеграция с SecurityContextHolder.
+
+В чем разница между Authentication и Authorization?
+Authentication — проверка личности, Authorization — проверка прав.
+
+Как реализовать метод-левел безопасность?
+Аннотации @PreAuthorize, @PostAuthorize, @Secured.
+
+Что такое CSRF и как Spring Security его обрабатывает?
+Токены в формах, отключение для stateless API.
+
+7. Интеграция & Микросервисы
+Как реализовать ретраи и circuit breaker?
+Использование Spring Retry, Resilience4j, Hystrix (устарел).
+
+Как работает RestTemplate vs WebClient?
+WebClient — реактивный, неблокирующий подход.
+
+Как настроить взаимодействие между микросервисами?
+Использование Feign Client, Spring Cloud OpenFeign.
+
+Что такое Spring Cloud Config?
+Централизованное управление конфигурациями через Git.
+
+8. Тестирование
+Как mock-ить бины в тестах?
+Аннотации @MockBean, @SpyBean, интеграция с Mockito.
+
+В чем разница между @SpringBootTest и @WebMvcTest?
+@SpringBootTest поднимает полный контекст, @WebMvcTest — только слой MVC.
+
+Как протестировать транзакции?
+Использование @Transactional в тестах, откат изменений после теста.
+
+9. Производительность
+Как диагностировать утечки памяти в Spring?
+Анализ HeapDump, мониторинг бинов, утечки в кэшах.
+
+Как оптимизировать старт приложения?
+Ленивая инициализация бинов (@Lazy), отключение неиспользуемых автоконфигураций.
+
+Как настроить пулы соединений?
+Конфигурация HikariCP через application.properties.
+
+10. Архитектура
+Как организовать модульность в Spring?
+Разделение на @Configuration классы, условная загрузка модулей.
+
+Когда использовать @Import vs @ComponentScan?
+@Import — явное подключение, @ComponentScan — автоматическое сканирование.
+
+Как реализовать кастомные аннотации?
+Пример: аннотация @Audited с BeanPostProcessor.
+
+
+
+
+
+
+
+
+

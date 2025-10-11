@@ -1,0 +1,47 @@
+========================================== Collections
+Основные интерфейсы JCF и их реализации	Java. Collections	Junior
+Внутреннее устройство HashMap	Java. Collections	Junior
+ArrayList в сравнении с LinkedList	Java. Collections	Junior
+Сложность операций в коллекциях	Java. Collections	Middle
+
+========================================== Generics
+Написать пример generic типа	Java. Generics	Junior
+generic-коллекции	Java. Generics	Junior
+Ко|контр|ин-вариантность	Java. Generics	Middle
+расскажи PECS	Java. Generics	Middle
+расскажи Type erasure	Java. Generics	Middle
+
+====================================== Reflection
+Примеры использования	Java. Reflection	Junior
+Какие возможности предоставляет	Java. Reflection	Junior
+расскажи runtime annotations	Java. Reflection	Middle
+расскажи dynamic proxies	Java. Reflection	Middle
+расскажи dynamic class loading	Java. Reflection	Middle
+
+=================================== Multithreading
+Способы создания потоков	Java. JMM. Multithreading	Junior
+Процесс vs поток	Java. JMM. Multithreading	Junior
+Что такое thread starvation	Java. JMM. Multithreading	Middle
+Способы синхронизации потоков	Java. JMM. Multithreading	Middle
+Пример deadlock	Java. JMM. Multithreading	Middle
+расскажи Concurrent collections	Java. JMM. Multithreading	Middle
+Atomic  что это что лежит в основе? Почему работает быстрее чем synchronized и volatile?	Java. JMM. Multithreading	Middle
+Что гарантируют и когда используются visibility и volatile	Java. JMM. Multithreading	Middle
+happens before на уровне общения нескольких потоков	Java. JMM. Multithreading	Middle
+Что такое ForkJoinPool  как он связан с parallel в streamAPI	Java. JMM. Multithreading	Senior
+
+======================= Работа с памятью
+heap  stack  metaspace. Сколько в JVM Stack'ов и сколько Heap'ов	Java. Работа с памятью	Junior
+OutOfMemoryError  StackOverflowError. В чём их разница	Java. Работа с памятью	Junior
+расскажи hardware memory architecture	Java. Работа с памятью	Middle
+ Xms  -Xmx. Как применять  и как они работают с разными GC	Java. Работа с памятью	Middle
+Как происходит работа с памятью? java
+
+========================================== GC
+stop-the-world pause	Java. GC	Middle
+Что такое GC  для чего он нужен и как облегчает жизнь в разработке 	Java. GC	Middle
+Виды GC	Java. GC	Middle
+Profiling  виды профайлеров	Java. GC	Senior
+Tuning GC  на что стоит обращать внимание  размер Heap отзывчивость выбор GC Java. GC Senior
+Чтение логов в каких случаях стоить смотреть логи GC Java. GC Senior
+
