@@ -1,0 +1,59 @@
+Что такое layers и зачем они нужны	Docker	Junior	0	0	0
+0
+
+
+
+
+
+
+Как запустить контейнер не под рутом и зачем это нужно	Docker	Junior	0	0	0
+0
+
+
+
+
+
+
+Отличия контейнеров от виртуальных машин	Docker	Junior	0	0	0
+0
+
+
+
+Что будет если контейнер превысит лимиты по памяти и cpu 	Docker	Middle	0	0	0
+0
+
+
+
+
+
+
+Multistage builds  что такое и для чего надо	Docker	Middle	0	0	0
+0
+
+
+
+
+
+
+Namespaces и cgroups  что такое и для чего нужны	Docker	Middle	0	0	0
+0
+
+
+DNS в докере - какой по дефолту  можно ли указать свой dns сервер и когда это может понадобиться	Docker	Senior	0	0	0
+0
+
+
+
+
+
+
+Container runtime interface  что такое  какие бывают как устроено в докере`	Docker	Senior	0	0	0
+0
+
+
+
+
+
+
+Устройство сети в докере  veth  bridge  host	Docker	Senior	0	0	0
+0

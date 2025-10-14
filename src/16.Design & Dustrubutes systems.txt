@@ -1,0 +1,67 @@
+Принцип работы service discovery	Design & Dustrubutes systems	Junior	0	0	0
+0
+
+Big O - что такое + примеры для коллекций	Design & Dustrubutes systems	Junior	0	0	0
+0
+
+Принципы ООП	Design & Dustrubutes systems	Junior	0	0	0
+0
+
+
+Как работает distributed tracing	Design & Dustrubutes systems	Middle	0	0	0
+0
+
+
+
+
+
+
+Load balancer vs reverse proxy	Design & Dustrubutes systems	Middle	0	0	0
+0
+
+
+
+
+
+
+Weak/eventual/strong consistency - в чем отличия	Design & Dustrubutes systems	Middle	0	0	0
+0
+
+
+
+
+
+
+Варианты read/write масштабирования для DB 	Design & Dustrubutes systems	Middle	0	0	0
+0
+
+
+Как работает circuit breaker	Design & Dustrubutes systems	Middle	0	0	0
+0
+
+
+monolith vs microservices	Design & Dustrubutes systems	Middle	0	0	0
+0
+
+
+SOLID	Design & Dustrubutes systems	Middle	0	0	0
+0
+
+
+
+GOF design patterns	Design & Dustrubutes systems	Middle	0	0	0
+0
+
+
+CAP теорема + примеры CP/AP систем 	Design & Dustrubutes systems	Middle	0	0	0
+0
+
+
+CQRS - какую проблему решает  как устроен	Design & Dustrubutes systems	Senior	0	0	0
+0
+
+Saga pattern - какую проблему решает  как устроен	Design & Dustrubutes systems	Senior	0	0	0
+0
+
+Основные принципы DDD	Design & Dustrubutes systems	Senior	0	0	0
+0

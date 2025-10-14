@@ -1,0 +1,60 @@
+Инфра в банке: как работает маскирование логов	Security	Junior	0	0	0
+0
+
+
+
+
+
+
+Шифрование в Spring Config Server и Ansible Vault — как работает?	Security	Junior	0	0	0
+0
+
+
+
+
+
+
+TrustStore  KeyStore - что в себе содержат  как можно их использовать?	Security	Junior	0	0	0
+0
+
+Keycloak: для чего нужен? Основные поняти: Realm  Role  Client Security
+Junior	0	0	0
+0
+
+
+OAuth 2.0 - основные понятия и как работает?	Security	Middle	0	0	0
+0
+
+
+
+Что такое JWKS?	Security	Middle	0	0	0
+0
+
+
+
+
+
+
+Шифрование: симметричное/несимметричное  сертификаты  самоподписанные сертификаты	Security	Middle	0	0	0
+0
+
+
+
+
+
+
+Что такое JWT?	Security	Middle	0	0	0
+0
+
+
+
+Keycloak: какой флоу используется у нас  какие есть еще?	Security	Senior	0	0	0
+0
+
+
+
+
+
+
+Keycloak: offline/online валидация токенов	Security	Senior	0	0	0
+0
