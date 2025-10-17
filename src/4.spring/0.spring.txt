@@ -76,241 +76,241 @@ bpp && bfpp	Spring	Senior	0	0	0
 
 CORE
 
-В чем разница между BeanFactory и ApplicationContext? Почему в 99% случаев мы используем ApplicationContext?
+В чем разница между BeanFactory и ApplicationContext? Почему в 99% случаев мы используем ApplicationContext? Spring Senior
 
-Как заставить бин создаваться не через конструктор, а через статический или нестатический фабричный метод? (Знание @Bean, @Configuration и FactoryBean интерфейса).
+Как заставить бин создаваться не через конструктор, а через статический или нестатический фабричный метод? (Знание @Bean, @Configuration и FactoryBean интерфейса). Spring Senior
 
 
-Профили и Проперти.
+Профили и Проперти. Spring Senior
 
-Как вы организуете конфигурацию для разных окружений (dev, staging, prod)? (Ожидается: профили, @PropertySource, PropertySourcesPlaceholderConfigurer / PropertyResolver, Spring Cloud Config для Senior+).
+Как вы организуете конфигурацию для разных окружений (dev, staging, prod)? (Ожидается: профили, @PropertySource, PropertySourcesPlaceholderConfigurer / PropertyResolver, Spring Cloud Config для Senior+). Spring Senior
 
-Что такое Environment абстракция в Spring и для чего она нужна?
+Что такое Environment абстракция в Spring и для чего она нужна? Spring Senior
 
 
-Условная конфигурация.
-Как работает @Conditional? Приведите пример, когда вы создавали свой кастомный Condition.
+Условная конфигурация. Spring Senior
+Как работает @Conditional? Приведите пример, когда вы создавали свой кастомный Condition. Spring Senior
 
-Как @Profile реализован "под капотом"? (Ожидается знание, что это мета-аннотация над @Conditional).
+Как @Profile реализован "под капотом"? (Ожидается знание, что это мета-аннотация над @Conditional). Spring Senior
 
 
-Порядок загрузки контекста.
-Что такое @DependsOn и когда его необходимо использовать?
+Порядок загрузки контекста. Spring Senior
+Что такое @DependsOn и когда его необходимо использовать? Spring Senior
 
-Как контролировать порядок инициализации бинов? (@Order, Ordered интерфейс, PriorityOrdered).
+Как контролировать порядок инициализации бинов? (@Order, Ordered интерфейс, PriorityOrdered). Spring Senior
 
 
-AOP (Aspect-Oriented Programming)
+AOP (Aspect-Oriented Programming) Spring Senior
 
-Какие два типа прокси создает Spring AOP? В чем ключевая разница между JDK Dynamic Proxy и CGLIB?
+Какие два типа прокси создает Spring AOP? В чем ключевая разница между JDK Dynamic Proxy и CGLIB? Spring Senior
 
-Почему вызов метода внутри одного класса, помеченный @Transactional или @Cacheable, не работает? (Проблема "self-invocation").
+Почему вызов метода внутри одного класса, помеченный @Transactional или @Cacheable, не работает? (Проблема "self-invocation"). Spring Senior
 
-Как выбор механизма прокси влияет на final классы и методы?
+Как выбор механизма прокси влияет на final классы и методы? Spring Senior
 
 
-Жизненный цикл Advice.
+Жизненный цикл Advice. Spring Senior
 
-Какие виды Advice вы знаете? (@Before, @After, @AfterReturning, @AfterThrowing, @Around).
+Какие виды Advice вы знаете? (@Before, @After, @AfterReturning, @AfterThrowing, @Around). Spring Senior
 
 
-В каком порядке выполняются аспекты, если их несколько? Как этим управлять?
+В каком порядке выполняются аспекты, если их несколько? Как этим управлять? Spring Senior
 
 
-4. DATA JPA
-Транзакции.
+4. DATA JPA Spring Senior
+Транзакции. Spring Senior
 
-Детально объясните механизм работы @Transactional. Как работает прокси при его использовании?
+Детально объясните механизм работы @Transactional. Как работает прокси при его использовании? Spring Senior
 
-Какие есть уровни изоляции и распространения (Propagation) транзакций? Объясните разницу между PROPAGATION_REQUIRES_NEW и PROPAGATION_NESTED. В каких реальных сценариях вы бы использовали каждый из них?
+Какие есть уровни изоляции и распространения (Propagation) транзакций? Объясните разницу между PROPAGATION_REQUIRES_NEW и PROPAGATION_NESTED. В каких реальных сценариях вы бы использовали каждый из них? Spring Senior
 
-Где должен находиться @Transactional - на сервисе или на репозитории? Почему?
+Где должен находиться @Transactional - на сервисе или на репозитории? Почему? Spring Senior
 
-Что такое "read-only" транзакция и какие оптимизации она дает?
+Что такое "read-only" транзакция и какие оптимизации она дает? Spring Senior
 
-Интеграция с JPA/Hibernate.
+Интеграция с JPA/Hibernate. Spring Senior
 
-Как работает @Transactional в связке с Hibernate Session / JPA EntityManager? (Концепция "session-per-request").
+Как работает @Transactional в связке с Hibernate Session / JPA EntityManager? (Концепция "session-per-request"). Spring Senior
 
-Что такое OpenSessionInView антипаттерн? Какие у него плюсы и минусы? Почему его часто не рекомендуют использовать?
+Что такое OpenSessionInView антипаттерн? Какие у него плюсы и минусы? Почему его часто не рекомендуют использовать? Spring Senior
 
-5. Testing
-Стратегии тестирования.
+5. Testing Spring Senior
+Стратегии тестирования. Spring Senior
 
-В чем разница между @SpringBootTest, @WebMvcTest, @DataJpaTest и @JsonTest? Какой аннотацией вы воспользуетесь для разных видов тестов и почему?
+В чем разница между @SpringBootTest, @WebMvcTest, @DataJpaTest и @JsonTest? Какой аннотацией вы воспользуетесь для разных видов тестов и почему? Spring Senior
 
-Как вы мокаете бины в Spring-тесте? (@MockBean, @SpyBean).
+Как вы мокаете бины в Spring-тесте? (@MockBean, @SpyBean). Spring Senior
 
-Что такое TestEntityManager и зачем он нужен?
+Что такое TestEntityManager и зачем он нужен? Spring Senior
 
-6. Производительность и Понимание "Под Капотом"
-Производительность контекста.
+6. Производительность и Понимание "Под Капотом" Spring Senior
+Производительность контекста. Spring Senior
 
-Что влияет на время старта Spring-контекста? Как его можно ускорить?
+Что влияет на время старта Spring-контекста? Как его можно ускорить? Spring Senior
 
-Что такое "ленивая инициализация" (Lazy Init)? Какие у нее плюсы и минусы?
+Что такое "ленивая инициализация" (Lazy Init)? Какие у нее плюсы и минусы? Spring Senior
 
 
 
-Разрешение зависимостей.
+Разрешение зависимостей. Spring Senior
 
-Что происходит, если есть несколько бинов-кандидатов одного типа? Как разрешается эта неоднозначность (Autowiring Ambiguity)? (Ожидается: @Primary, @Qualifier, имя бина).
+Что происходит, если есть несколько бинов-кандидатов одного типа? Как разрешается эта неоднозначность (Autowiring Ambiguity)? (Ожидается: @Primary, @Qualifier, имя бина). Spring Senior
 
-Как работает @Autowired? В каком порядке ищется подходящий бин?
+Как работает @Autowired? В каком порядке ищется подходящий бин? Spring Senior
 
 
-================================================================================
+================================================================================ Spring Senior
 
-1. Spring Core & Context
-Как Spring управляет жизненным циклом бинов?
-Объясните этапы: инстанцирование, внедрение зависимостей, инициализация (@PostConstruct, InitializingBean), уничтожение (@PreDestroy, DisposableBean).
+1. Spring Core & Context Spring Senior
+Как Spring управляет жизненным циклом бинов? Spring Senior
+Объясните этапы: инстанцирование, внедрение зависимостей, инициализация (@PostConstruct, InitializingBean), уничтожение (@PreDestroy, DisposableBean). Spring Senior
 
-Чем отличается BeanFactory от ApplicationContext?
-ApplicationContext предоставляет расширенные возможности (AOP, международализация, событийная модель).
+Чем отличается BeanFactory от ApplicationContext? Spring Senior
+ApplicationContext предоставляет расширенные возможности (AOP, международализация, событийная модель). Spring Senior
 
-Как работает механизм BeanPostProcessor?
-Примеры: @Autowired, @PostConstruct, кастомные обработчики.
+Как работает механизм BeanPostProcessor? Spring Senior
+Примеры: @Autowired, @PostConstruct, кастомные обработчики. Spring Senior
 
-Что такое условие создания бина через @Conditional?
-Пример использования для профилей или кастомных условий.
+Что такое условие создания бина через @Conditional? Spring Senior
+Пример использования для профилей или кастомных условий. Spring Senior
 
-2. Транзакции
-Как работают транзакции в Spring?
-Объясните PlatformTransactionManager, проксирование через AOP, аннотацию @Transactional.
+2. Транзакции Spring Senior
+Как работают транзакции в Spring? Spring Senior
+Объясните PlatformTransactionManager, проксирование через AOP, аннотацию @Transactional. Spring Senior
 
-В чем разница между PROPAGATION_REQUIRES_NEW и PROPAGATION_NESTED?
-REQUIRES_NEW всегда создает новую транзакцию, NESTED использует savepoints внутри существующей.
+В чем разница между PROPAGATION_REQUIRES_NEW и PROPAGATION_NESTED? Spring Senior
+REQUIRES_NEW всегда создает новую транзакцию, NESTED использует savepoints внутри существующей. Spring Senior
 
-Почему @Transactional не работает на private методах?
-Проксирование на основе AOP требует видимости методов.
+Почему @Transactional не работает на private методах? Spring Senior
+Проксирование на основе AOP требует видимости методов. Spring Senior
 
-Как обработать исключения в транзакциях?
-rollbackFor, noRollbackFor, взаимодействие с checked/unchecked исключениями.
+Как обработать исключения в транзакциях? Spring Senior
+rollbackFor, noRollbackFor, взаимодействие с checked/unchecked исключениями. Spring Senior
 
-3. Spring Boot
-Как работает автоконфигурация в Spring Boot?
-Механизм spring.factories, условия @ConditionalOnClass, @EnableAutoConfiguration.
+3. Spring Boot Spring Senior
+Как работает автоконфигурация в Spring Boot? Spring Senior
+Механизм spring.factories, условия @ConditionalOnClass, @EnableAutoConfiguration. Spring Senior
 
-Как переопределить автоконфигурацию?
-Создание собственного бина с высшим приоритетом (@Primary, @Order).
+Как переопределить автоконфигурацию? Spring Senior
+Создание собственного бина с высшим приоритетом (@Primary, @Order). Spring Senior
 
-В чем разница между @Component, @Service, @Repository?
-@Repository добавляет трансляцию исключений JDBC в DataAccessException.
+В чем разница между @Component, @Service, @Repository? Spring Senior
+@Repository добавляет трансляцию исключений JDBC в DataAccessException. Spring Senior
 
-Как кастомизировать встроенный сервер (Tomcat)?
-Через application.properties или WebServerFactoryCustomizer.
+Как кастомизировать встроенный сервер (Tomcat)? Spring Senior
+Через application.properties или WebServerFactoryCustomizer. Spring Senior
 
-4. Spring MVC & Web
-Жизненный цикл запроса в Spring MVC.
-Роль DispatcherServlet, HandlerMapping, ViewResolver, интерцепторы.
+4. Spring MVC & Web Spring Senior
+Жизненный цикл запроса в Spring MVC. Spring Senior
+Роль DispatcherServlet, HandlerMapping, ViewResolver, интерцепторы. Spring Senior
 
-Как обработать исключения глобально?
-Через @ControllerAdvice и @ExceptionHandler.
+Как обработать исключения глобально? Spring Senior
+Через @ControllerAdvice и @ExceptionHandler. Spring Senior
 
-В чем разница между @RequestParam и @PathVariable?
-@RequestParam — параметры запроса, @PathVariable — часть URL.
+В чем разница между @RequestParam и @PathVariable? Spring Senior
+@RequestParam — параметры запроса, @PathVariable — часть URL. Spring Senior
 
-Как реализовать асинхронные запросы?
-Использование DeferredResult, CompletableFuture, @Async.
+Как реализовать асинхронные запросы? Spring Senior
+Использование DeferredResult, CompletableFuture, @Async. Spring Senior
 
-5. Spring Data & JPA
-Как работает ленивая загрузка в Hibernate?
-Прокси-объекты, проблемы LazyInitializationException вне транзакции.
+5. Spring Data & JPA Spring Senior
+Как работает ленивая загрузка в Hibernate? Spring Senior
+Прокси-объекты, проблемы LazyInitializationException вне транзакции. Spring Senior
 
-Что такое N+1 проблема и как ее решить?
-Примеры: @EntityGraph, JOIN FETCH в JPQL.
+Что такое N+1 проблема и как ее решить? Spring Senior
+Примеры: @EntityGraph, JOIN FETCH в JPQL. Spring Senior
 
-Как настроить кэширование второго уровня?
-Интеграция с Ehcache, Redis, аннотация @Cacheable.
+Как настроить кэширование второго уровня? Spring Senior
+Интеграция с Ehcache, Redis, аннотация @Cacheable. Spring Senior
 
-В чем разница между CrudRepository и JpaRepository?
-JpaRepository добавляет пагинацию, batch-операции, флаush.
+В чем разница между CrudRepository и JpaRepository? Spring Senior
+JpaRepository добавляет пагинацию, batch-операции, флаush. Spring Senior
 
-6. Spring Security
-Как работает аутентификация через JWT?
-Создание JwtAuthenticationFilter, интеграция с SecurityContextHolder.
+6. Spring Security Spring Senior
+Как работает аутентификация через JWT? Spring Senior
+Создание JwtAuthenticationFilter, интеграция с SecurityContextHolder. Spring Senior
 
-В чем разница между Authentication и Authorization?
-Authentication — проверка личности, Authorization — проверка прав.
+В чем разница между Authentication и Authorization? Spring Senior
+Authentication — проверка личности, Authorization — проверка прав. Spring Senior
 
-Как реализовать метод-левел безопасность?
-Аннотации @PreAuthorize, @PostAuthorize, @Secured.
+Как реализовать метод-левел безопасность? Spring Senior
+Аннотации @PreAuthorize, @PostAuthorize, @Secured. Spring Senior
 
-Что такое CSRF и как Spring Security его обрабатывает?
-Токены в формах, отключение для stateless API.
+Что такое CSRF и как Spring Security его обрабатывает? Spring Senior
+Токены в формах, отключение для stateless API. Spring Senior
 
 
-7. Интеграция & Микросервисы
-Как реализовать ретраи и circuit breaker?
-Использование Spring Retry, Resilience4j, Hystrix (устарел).
+7. Интеграция & Микросервисы Spring Senior
+Как реализовать ретраи и circuit breaker? Spring Senior
+Использование Spring Retry, Resilience4j, Hystrix (устарел). Spring Senior
 
-Как работает RestTemplate vs WebClient?
-WebClient — реактивный, неблокирующий подход.
+Как работает RestTemplate vs WebClient? Spring Senior
+WebClient — реактивный, неблокирующий подход. Spring Senior
 
-Как настроить взаимодействие между микросервисами?
-Использование Feign Client, Spring Cloud OpenFeign.
+Как настроить взаимодействие между микросервисами? Spring Senior
+Использование Feign Client, Spring Cloud OpenFeign. Spring Senior
 
-Что такое Spring Cloud Config?
-Централизованное управление конфигурациями через Git.
+Что такое Spring Cloud Config? Spring Senior
+Централизованное управление конфигурациями через Git. Spring Senior
 
-8. Тестирование
-Как mock-ить бины в тестах?
-Аннотации @MockBean, @SpyBean, интеграция с Mockito.
+8. Тестирование Spring Senior
+Как mock-ить бины в тестах? Spring Senior
+Аннотации @MockBean, @SpyBean, интеграция с Mockito. Spring Senior
 
-В чем разница между @SpringBootTest и @WebMvcTest?
-@SpringBootTest поднимает полный контекст, @WebMvcTest — только слой MVC.
+В чем разница между @SpringBootTest и @WebMvcTest? Spring Senior
+@SpringBootTest поднимает полный контекст, @WebMvcTest — только слой MVC. Spring Senior
 
-Как протестировать транзакции?
-Использование @Transactional в тестах, откат изменений после теста.
+Как протестировать транзакции? Spring Senior
+Использование @Transactional в тестах, откат изменений после теста. Spring Senior
 
-9. Производительность
-Как диагностировать утечки памяти в Spring?
-Анализ HeapDump, мониторинг бинов, утечки в кэшах.
+9. Производительность Spring Senior
+Как диагностировать утечки памяти в Spring? Spring Senior
+Анализ HeapDump, мониторинг бинов, утечки в кэшах. Spring Senior
 
-Как оптимизировать старт приложения?
-Ленивая инициализация бинов (@Lazy), отключение неиспользуемых автоконфигураций.
+Как оптимизировать старт приложения? Spring Senior
+Ленивая инициализация бинов (@Lazy), отключение неиспользуемых автоконфигураций. Spring Senior
 
-Как настроить пулы соединений?
-Конфигурация HikariCP через application.properties.
+Как настроить пулы соединений? Spring Senior
+Конфигурация HikariCP через application.properties. Spring Senior
 
-10. Архитектура
-Как организовать модульность в Spring?
-Разделение на @Configuration классы, условная загрузка модулей.
+10. Архитектура Spring Senior
+Как организовать модульность в Spring? Spring Senior
+Разделение на @Configuration классы, условная загрузка модулей. Spring Senior
 
-Когда использовать @Import vs @ComponentScan?
-@Import — явное подключение, @ComponentScan — автоматическое сканирование.
+Когда использовать @Import vs @ComponentScan? Spring Senior
+@Import — явное подключение, @ComponentScan — автоматическое сканирование. Spring Senior
 
-Как реализовать кастомные аннотации?
-Пример: аннотация @Audited с BeanPostProcessor.
+Как реализовать кастомные аннотации? Spring Senior
+Пример: аннотация @Audited с BeanPostProcessor. Spring Senior
 
-====================== WebFlux
+====================== WebFlux Spring Senior
 
-В чем фундаментальные различия между императивным (Spring MVC) и реактивным (WebFlux) подходами?
+В чем фундаментальные различия между императивным (Spring MVC) и реактивным (WebFlux) подходами? Spring Senior
 
-Как глобально обрабатывать ошибки в WebFlux (например, через @ControllerAdvice)?
+Как глобально обрабатывать ошибки в WebFlux (например, через @ControllerAdvice)? Spring Senior
 
-Как работает event-loop модель в Netty под капотом WebFlux?
+Как работает event-loop модель в Netty под капотом WebFlux? Spring Senior
 
-Какие лимиты соединений и таймауты нужно настраивать для Production?
+Какие лимиты соединений и таймауты нужно настраивать для Production? Spring Senior
 
-Как тестировать реактивные контроллеры с помощью WebTestClient?
+Как тестировать реактивные контроллеры с помощью WebTestClient? Spring Senior
 
-Как реализовать JWT аутентификацию в реактивном стеке?
+Как реализовать JWT аутентификацию в реактивном стеке? Spring Senior
 
-Как работать с реактивным ReactiveUserDetailsService?
+Как работать с реактивным ReactiveUserDetailsService? Spring Senior
 
-Как организовать взаимодействие с реактивной базой данных (R2DBC/MongoDB)?
+Как организовать взаимодействие с реактивной базой данных (R2DBC/MongoDB)? Spring Senior
 
-Как реализовать кеширование в реактивном стиле (Redis/Lettuce)?
+Как реализовать кеширование в реактивном стиле (Redis/Lettuce)? Spring Senior
 
-Как реализовать CQRS и Event Sourcing с использованием реактивных потоков?
+Как реализовать CQRS и Event Sourcing с использованием реактивных потоков? Spring Senior
 
-Какие особенности реализации SAGA-паттерна в реактивном стиле?
+Какие особенности реализации SAGA-паттерна в реактивном стиле? Spring Senior
 
-Как организовать обработку долгих фоновых процессов (например, с помощью Flux.interval)?
+Как организовать обработку долгих фоновых процессов (например, с помощью Flux.interval)? Spring Senior
 
-Как настроить graceful shutdown для реактивных приложений?
+Как настроить graceful shutdown для реактивных приложений? Spring Senior
 
-Какие best practices для логирования в реактивных цепочках (MDC-контекст)?
+Какие best practices для логирования в реактивных цепочках (MDC-контекст)? Spring Senior
 
-Как обеспечить idempotency при работе с сообщениями?
+Как обеспечить idempotency при работе с сообщениями? Spring Senior
