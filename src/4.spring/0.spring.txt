@@ -210,7 +210,7 @@ rollbackFor, noRollbackFor, взаимодействие с checked/unchecked и
 В чем разница между @RequestParam и @PathVariable? Spring Senior
 @RequestParam — параметры запроса, @PathVariable — часть URL. Spring Senior
 
-Как реализовать асинхронные запросы? Spring Senior
+Как реализовать асинхронные запросы в spring mvc? Spring Senior
 Использование DeferredResult, CompletableFuture, @Async. Spring Senior
 
 5. Spring Data & JPA Spring Senior
