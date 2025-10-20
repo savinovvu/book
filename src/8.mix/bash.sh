@@ -3,32 +3,32 @@
 # Создаем файлы по всем темам
 files=(
     # Java и JVM
-    "1.Применение_профайлеров_и_опыт_использования.md"
-    "2.Основные_параметры_JVM_при_старте_Xms_Xmx_Xss.md"
-    "3.Reflection_для_работы_с_аннотациями.md"
-    "4.Последние_тенденции_в_Java_и_следующий_релиз.md"
-    "5.Профайлинг_инструменты_и_назначение.md"
-    "6.Динамическая_загрузка_классов_и_загрузчики.md"
-    "7.Внутреннее_устройство_коллекций_коллизии_equals_hashCode.md"
-    "8.Настройка_GC_для_оптимизации_Java_приложения.md"
-    "9.Логи_GC_чтение_и_использование.md"
-    "10.Memory_dump_использование_и_назначение.md"
-    "11.Применение_профайлеров_типы_и_влияние_на_приложение.md"
+    "1.Применение_профайлеров_и_опыт_использования.md" Java jvm Senior
+    "2.Основные_параметры_JVM_при_старте_Xms_Xmx_Xss.md" Java jvm Senior
+    "3.Reflection_для_работы_с_аннотациями.md" Java jvm Senior
+    "4.Последние_тенденции_в_Java_и_следующий_релиз.md" Java jvm Senior
+    "5.Профайлинг_инструменты_и_назначение.md" Java jvm Senior
+    "6.Динамическая_загрузка_классов_и_загрузчики.md" Java jvm Senior
+    "7.Внутреннее_устройство_коллекций_коллизии_equals_hashCode.md" Java jvm Senior
+    "8.Настройка_GC_для_оптимизации_Java_приложения.md" Java jvm Senior
+    "9.Логи_GC_чтение_и_использование.md" Java jvm Senior
+    "10.Memory_dump_использование_и_назначение.md" Java jvm Senior
+    "11.Применение_профайлеров_типы_и_влияние_на_приложение.md" Java jvm Senior
 
     # Design Patterns & Architecture
-    "12.Принципы_SOLID.md"
-    "13.Паттерны_объектно_ориентированного_программирования.md"
-    "14.Статические_анализаторы_кода.md"
-    "15.Princip_raboty_service_discovery.md"
-    "16.Distributed_tracing.md"
-    "17.Raznica_Load_balancer_i_reverse_proxy.md"
-    "18.Otlichie_Weak_eventual_strong_consistency.md"
-    "19.Varianty_read_write_masshtabirovaniya_dlya_DB.md"
-    "20.CAP_teorema_primeri_CP_AP_sistem.md"
-    "21.Patterny_integracii_API_v_mikroservisah.md"
-    "22.Patterny_soglasovannosti_dannyh_2PC_Saga_Outbox_Event_sourcing_CQRS.md"
-    "23.Infrastrukturnye_patterny_mikroservisov.md"
-    "24.Osnovnye_koncepcii_DDD_domen_universalnyj_yazyk_ogranichennyj_kontekst.md"
+    "12.Принципы_SOLID.md" Senior java developer
+    "13.Паттерны_объектно_ориентированного_программирования.md" Senior java developer
+    "14.Статические_анализаторы_кода.md" Senior java developer
+    "15.Princip_raboty_service_discovery.md" Senior java developer
+    "16.Distributed_tracing.md" Senior java developer
+    "17.Raznica_Load_balancer_i_reverse_proxy.md" Senior java developer
+    "18.Otlichie_Weak_eventual_strong_consistency.md" Senior java developer
+    "19.Varianty_read_write_masshtabirovaniya_dlya_DB.md" Senior java developer
+    "20.CAP_teorema_primeri_CP_AP_sistem.md" Senior java developer
+    "21.Patterny_integracii_API_v_mikroservisah.md" Senior java developer
+    "22.Patterny_soglasovannosti_dannyh_2PC_Saga_Outbox_Event_sourcing_CQRS.md" Senior java developer
+    "23.Infrastrukturnye_patterny_mikroservisov.md" Senior java developer
+    "24.Osnovnye_koncepcii_DDD_domen_universalnyj_yazyk_ogranichennyj_kontekst.md" Senior java developer
 
     # Reactive Programming
     "25.Operacii_zip_concat_merge.md"
