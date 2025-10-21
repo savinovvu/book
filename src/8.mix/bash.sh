@@ -31,50 +31,52 @@ files=(
     "24.Osnovnye_koncepcii_DDD_domen_universalnyj_yazyk_ogranichennyj_kontekst.md" Senior java developer
 
     # Reactive Programming
-    "25.Operacii_zip_concat_merge.md"
-    "26.Testirovanie_reaktivnogo_koda_reactor_test.md"
-    "27.Osnovnye_ponyatiya_Reactive_manifesto.md"
-    "28.Rasparallelivanie_reaktivnogo_koda.md"
-    "29.Rabota_publishOn_i_subscribeOn.md"
-    "30.Vzaimodejstvie_Project_Reactor_s_Spring_WebFlux_R2DBC_WebClient.md"
-    "31.Annotations_cacheable_transactional_async_ogranicheniya.md"
-    "32.Spring_Cloud_komponenty_i_ispolzovanie.md"
-    "33.Spring_WebFlux_komponenty_Flux_Mono_routing_handlers_clients_repositories.md"
-    "34.Bean_Post_Processor_i_Bean_Factory_Post_Processor.md"
-    "35.Generaciya_proksi_dlya_annotacij_Spring_Cacheable_Async_Transactional.md"
+    "25.Operacii_zip_concat_merge.md" Senior Java Reactor расскажи
+    "26.Testirovanie_reaktivnogo_koda_reactor_test.md" Senior Java Reactor расскажи
+    "27.Osnovnye_ponyatiya_Reactive_manifesto.md" Senior Java Reactor расскажи
+    "28.Rasparallelivanie_reaktivnogo_koda.md" Senior Java Reactor расскажи
+    "29.Rabota_publishOn_i_subscribeOn.md" Senior Java Reactor расскажи
+
+    # Spring
+    "30.Vzaimodejstvie_Project_Reactor_s_Spring_WebFlux_R2DBC_WebClient.md" Senior Java расскажи
+    "31.Annotations_cacheable_transactional_async_ogranicheniya.md" Senior Java расскажи
+    "32.Spring_Cloud_komponenty_i_ispolzovanie.md" Senior Java расскажи
+    "33.Spring_WebFlux_komponenty_Flux_Mono_routing_handlers_clients_repositories.md" Senior Java расскажи
+    "34.Bean_Post_Processor_i_Bean_Factory_Post_Processor.md" Senior Java расскажи
+    "35.Generaciya_proksi_dlya_annotacij_Spring_Cacheable_Async_Transactional.md" Senior Java расскажи
 
     # Kotlin
-    "36.Konvertaciya_Mono_Flux_v_coroutine.md"
-    "37.Izmeneniya_v_sintaksise_Kotlin_sravnenie_s_Java.md"
-    "38.Sozdanie_delegata.md"
-    "39.Vyzov_Java_koda_iz_Kotlin.md"
-    "40.Vyzov_Kotlin_extension_funkcij_iz_Java.md"
-    "41.Sealed_klassy.md"
-    "42.Ekvivalent_staticheskih_metodov_Java_v_Kotlin.md"
-    "43.Analog_try_with_resources_v_Kotlin.md"
-    "44.Analog_stream_api_v_Kotlin_osobennosti.md"
-    "45.Bezopasnyj_vyzov_i_operator_Elvisa.md"
-    "46.lateinit_ispolzovanie.md"
-    "47.Anonimnye_klassy_i_SAM_interfejsy.md"
-    "48.Data_class_otlichie_ot_obychnogo_klassa.md"
-    "49.Osnovnye_ponyatiya_coroutines.md"
-    "50.Inline_funkcii_i_klassy.md"
-    "51.Otlichie_Any_v_Kotlin_ot_Object_v_Java.md"
-    "52.Refleksiya_v_Kotlin.md"
-    "53.Ogranicheniya_zameny_sequence_na_stream.md"
-    "54.Otlichie_ierarhii_kollekcji_Kotlin_ot_Java.md"
-    "55.CoroutineScope_i_coroutineContext.md"
-    "56.Obrabotka_isklyuchenij_v_korutinah.md"
-    "57.Flow_otlichie_ot_Flux.md"
-    "58.Otlichie_invoke_run_apply_also.md"
-    "59.Delegaty_lazy_observable_vetoable.md"
-    "60.Mono_Flux_v_coroutine.md"
-    "61.Vyzov_Kotlin_coroutine_iz_Java_koda.md"
-    "62.Vnutrennee_ustrojstvo_coroutines.md"
-    "63.Rabota_s_generic_tipom_otlichie_ot_Java.md"
-    "64.Realizaciya_suspend_funkcij_na_urovne_bajt_koda.md"
-    "65.Otlichiya_virtualnyh_potokov_i_korutin.md"
-    "66.Otlichie_Channel_ot_Flow.md"
+    "36.Konvertaciya_Mono_Flux_v_coroutine.md"  Senior backend Kotlin расскажи
+    "37.Izmeneniya_v_sintaksise_Kotlin_sravnenie_s_Java.md"  Senior backend Kotlin расскажи
+    "38.Sozdanie_delegata.md"  Senior backend Kotlin расскажи
+    "39.Vyzov_Java_koda_iz_Kotlin.md"  Senior backend Kotlin расскажи
+    "40.Vyzov_Kotlin_extension_funkcij_iz_Java.md"  Senior backend Kotlin расскажи
+    "41.Sealed_klassy.md"  Senior backend Kotlin расскажи
+    "42.Ekvivalent_staticheskih_metodov_Java_v_Kotlin.md"  Senior backend Kotlin расскажи
+    "43.Analog_try_with_resources_v_Kotlin.md"  Senior backend Kotlin расскажи
+    "44.Analog_stream_api_v_Kotlin_osobennosti.md"  Senior backend Kotlin расскажи
+    "45.Bezopasnyj_vyzov_i_operator_Elvisa.md"  Senior backend Kotlin расскажи
+    "46.lateinit_ispolzovanie.md"  Senior backend Kotlin расскажи
+    "47.Anonimnye_klassy_i_SAM_interfejsy.md"  Senior backend Kotlin расскажи
+    "48.Data_class_otlichie_ot_obychnogo_klassa.md"  Senior backend Kotlin расскажи
+    "49.Osnovnye_ponyatiya_coroutines.md"  Senior backend Kotlin расскажи
+    "50.Inline_funkcii_i_klassy.md"  Senior backend Kotlin расскажи
+    "51.Otlichie_Any_v_Kotlin_ot_Object_v_Java.md"  Senior backend Kotlin расскажи
+    "52.Refleksiya_v_Kotlin.md"  Senior backend Kotlin расскажи
+    "53.Ogranicheniya_zameny_sequence_na_stream.md"  Senior backend Kotlin расскажи
+    "54.Otlichie_ierarhii_kollekcji_Kotlin_ot_Java.md"  Senior backend Kotlin расскажи
+    "55.CoroutineScope_i_coroutineContext.md"  Senior backend Kotlin расскажи
+    "56.Obrabotka_isklyuchenij_v_korutinah.md"  Senior backend Kotlin расскажи
+    "57.Flow_otlichie_ot_Flux.md"  Senior backend Kotlin расскажи
+    "58.Otlichie_invoke_run_apply_also.md"  Senior backend Kotlin расскажи
+    "59.Delegaty_lazy_observable_vetoable.md"  Senior backend Kotlin расскажи
+    "60.Mono_Flux_v_coroutine.md"  Senior backend Kotlin расскажи
+    "61.Vyzov_Kotlin_coroutine_iz_Java_koda.md"  Senior backend Kotlin расскажи
+    "62.Vnutrennee_ustrojstvo_coroutines.md"  Senior backend Kotlin расскажи
+    "63.Rabota_s_generic_tipom_otlichie_ot_Java.md"  Senior backend Kotlin расскажи
+    "64.Realizaciya_suspend_funkcij_na_urovne_bajt_koda.md"  Senior backend Kotlin расскажи
+    "65.Otlichiya_virtualnyh_potokov_i_korutin.md"  Senior backend Kotlin расскажи
+    "66.Otlichie_Channel_ot_Flow.md"  Senior backend Kotlin расскажи
 
     # Базы данных
     "67.Normalizaciya_baz_dannyh.md"
