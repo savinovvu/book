@@ -69,8 +69,6 @@ files=(
     "56.Obrabotka_isklyuchenij_v_korutinah.md"  Senior backend Kotlin расскажи
     "57.Flow_otlichie_ot_Flux.md"  Senior backend Kotlin расскажи
     "58.Otlichie_invoke_run_apply_also.md"  Senior backend Kotlin расскажи
-    "59.Delegaty_lazy_observable_vetoable.md"  Senior backend Kotlin расскажи
-    "60.Mono_Flux_v_coroutine.md"  Senior backend Kotlin расскажи
     "61.Vyzov_Kotlin_coroutine_iz_Java_koda.md"  Senior backend Kotlin расскажи
     "62.Vnutrennee_ustrojstvo_coroutines.md"  Senior backend Kotlin расскажи
     "63.Rabota_s_generic_tipom_otlichie_ot_Java.md"  Senior backend Kotlin расскажи
@@ -79,25 +77,24 @@ files=(
     "66.Otlichie_Channel_ot_Flow.md"  Senior backend Kotlin расскажи
 
     # Базы данных
-    "67.Normalizaciya_baz_dannyh.md"
-    "68.Principy_ACID.md"
-    "69.Urovni_izolirovannosti_tranzakcij.md"
-    "70.Particionirovanie_tablic.md"
-    "71.Sohrannost_dannyh_replikaciya_zapis_chtenie.md"
-    "72.Optimizaciya_zaprosov_plan_vypolneniya.md"
-    "73.Raspredelennye_tranzakcii.md"
-    "74.Write_ahead_log_transaction_log.md"
+    "67.Normalizaciya_baz_dannyh.md" Senior java developer расскажи
+    "69.Urovni_izolirovannosti_tranzakcij.md" Senior java developer расскажи
+    "70.Particionirovanie_tablic.md" Senior java developer расскажи
+    "71.Sohrannost_dannyh_replikaciya_zapis_chtenie.md" Senior java developer расскажи
+    "72.Optimizaciya_zaprosov_plan_vypolneniya.md" Senior java developer расскажи
+    "73.Raspredelennye_tranzakcii.md" Senior java developer расскажи
+    "74.Write_ahead_log_transaction_log.md" Senior java developer расскажи
 
     # MongoDB
-    "75.Replica_set_MongoDB.md"
-    "76.Shardirovannyj_klaster_MongoDB_otkazoustojchivost.md"
-    "77.Read_Write_concern_eventual_consistency.md"
-    "78.Tranzakcii_v_MongoDB_garantii.md"
-    "79.Vidy_indeksov_v_MongoDB.md"
-    "80.Mehanizm_persistentnosti_MongoDB.md"
-    "81.CAP_teorema_i_MongoDB_garantii.md"
-    "82.WireTiger_i_blokirovki_v_MongoDB.md"
-    "83.Mehanizm_oplog_v_MongoDB_replikaciya_i_vosstanovlenie.md"
+    "75.Replica_set_MongoDB.md" Senior java developer расскажи
+    "76.Shardirovannyj_klaster_MongoDB_otkazoustojchivost.md" Senior java developer расскажи
+    "77.Read_Write_concern_eventual_consistency.md" Senior java developer расскажи
+    "78.Tranzakcii_v_MongoDB_garantii.md" Senior java developer расскажи
+    "79.Vidy_indeksov_v_MongoDB.md" Senior java developer расскажи
+    "80.Mehanizm_persistentnosti_MongoDB.md" Senior java developer расскажи
+    "81.CAP_teorema_i_MongoDB_garantii.md" Senior java developer расскажи
+    "82.WireTiger_i_blokirovki_v_MongoDB.md" Senior java developer расскажи
+    "83.Mehanizm_oplog_v_MongoDB_replikaciya_i_vosstanovlenie.md" Senior java developer расскажи
 
     # Kafka
     "84.Kafka_komponenty_klastera.md"
