@@ -97,16 +97,16 @@ files=(
     "83.Mehanizm_oplog_v_MongoDB_replikaciya_i_vosstanovlenie.md" Senior java developer расскажи
 
     # Kafka
-    "84.Kafka_komponenty_klastera.md"
-    "85.Offset_v_Kafka_hranenie.md"
-    "86.Politiki_ochistki_v_Kafka_razmer_segmenta.md"
-    "87.Transaction_log_v_Kafka.md"
-    "88.Particii_v_Kafka_vliyanie_zapis_soobschenij.md"
-    "89.Rebalans_v_Kafka_prodjusery_konsjumery_particii.md"
-    "90.Garantii_dostavki_v_Kafka_nastrojka.md"
-    "91.Otkazoustojchivost_Kafka_padenie_brokerov.md"
-    "92.Idempotent_producer.md"
-    "93.Garantii_poryadka_v_Kafka.md"
+    "84.Kafka_komponenty_klastera.md" Senior developer расскажи
+    "85.Offset_v_Kafka_hranenie.md" Senior developer расскажи
+    "86.Politiki_ochistki_v_Kafka_razmer_segmenta.md" Senior developer расскажи
+    "87.Transaction_log_v_Kafka.md" Senior developer расскажи
+    "88.Particii_v_Kafka_vliyanie_zapis_soobschenij.md" Senior developer расскажи
+    "89.Rebalans_v_Kafka_prodjusery_konsjumery_particii.md" Senior developer расскажи
+    "90.Garantii_dostavki_v_Kafka_nastrojka.md" Senior developer расскажи
+    "91.Otkazoustojchivost_Kafka_padenie_brokerov.md" Senior developer расскажи
+    "92.Idempotent_producer.md" Senior developer расскажи
+    "93.Garantii_poryadka_v_Kafka.md" Senior developer расскажи
 )
 
 # Создаем каждый файл
