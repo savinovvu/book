@@ -36,14 +36,9 @@ class Solution {
         int maxProfit = 0;                // Максимальная прибыль
         
         for (int price : prices) {
-            // Обновляем минимальную цену
-            if (price < minPrice) {
-                minPrice = price;
-            } 
+            minPrice = Math.min(price, minPrice);
             // Рассчитываем потенциальную прибыль и обновляем максимум
-            else if (price - minPrice > maxProfit) {
-                maxProfit = price - minPrice;
-            }
+            maxProfit = Math.max(price - minPrice, maxProfit);
         }
         
         return maxProfit;
