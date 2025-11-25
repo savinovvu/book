@@ -12,7 +12,7 @@ class Solution {
     public int maxDistToClosest(int[] seats) {
         int n = seats.length;
         int maxDistance = 0;
-        int lastOccupied = -1;  // Хранит индекс последнего встреченного занятого места
+        int last = -1;  // Хранит индекс последнего встреченного занятого места
         
         // Проходим по всем местам в ряду
         for (int i = 0; i < n; i++) {
@@ -20,10 +20,10 @@ class Solution {
             if (seats[i] == 1) {
                 
                 // СЛУЧАЙ 1: Первое занятое место в ряду
-                // Если мы еще не встречали занятых мест (lastOccupied = -1)
+                // Если мы еще не встречали занятых мест (last = -1)
                 // то все места от начала до этого занятого места свободны
                 // Максимальное расстояние в этом случае = i (индекс первого занятого места)
-                if (lastOccupied == -1) {
+                if (last == -1) {
                     maxDistance = i;  // Пример: [0,0,0,1,...] -> расстояние = 3
                 } 
                 // СЛУЧАЙ 2: Между двумя занятыми местами
@@ -31,12 +31,12 @@ class Solution {
                 // то оптимальное положение - посередине между ними
                 // Расстояние = (текущий индекс - предыдущий занятый) / 2
                 else {
-                    int distanceBetween = (i - lastOccupied) / 2;
-                    maxDistance = Math.max(maxDistance, distanceBetween);
+                    int distance = (i - last) / 2;
+                    maxDistance = Math.max(maxDistance, distance);
                 }
                 
                 // Всегда обновляем последнее занятое место
-                lastOccupied = i;
+                last = i;
             }
         }
         
@@ -44,8 +44,8 @@ class Solution {
         // После прохода всего массива проверяем, есть ли свободные места после последнего занятого
         // Если последнее занятое место не в конце массива
         // то вычисляем расстояние от него до конца
-        if (lastOccupied != n - 1) {
-            int distanceToEnd = n - 1 - lastOccupied;
+        if (last != n - 1) {
+            int distanceToEnd = n - 1 - last;
             maxDistance = Math.max(maxDistance, distanceToEnd);
         }
         

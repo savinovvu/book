@@ -36,7 +36,7 @@ class Solution {
             
             // Добавляем текущий символ в HashMap
             // getOrDefault возвращает текущее значение или 0, если ключа нет
-            charCount.put(rightChar, charCount.getOrDefault(rightChar, 0) + 1);
+            charCount.merge(rightChar, 1, Integer::sum);
             
             // Если количество различных символов превысило k,
             // перемещаем левый указатель, пока не станет снова ≤ k
