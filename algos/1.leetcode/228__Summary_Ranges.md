@@ -27,11 +27,11 @@ Output: ["0","2->4","6","8->9"]
 class Solution {
     public List<String> summaryRanges(int[] nums) {
         List<String> result = new ArrayList<>();
-        
+
         if (nums.length == 0) return result;
-        
+
         int start = nums[0];
-        
+
         for (int i = 1; i <= nums.length; i++) {
             // Если достигли конца массива ИЛИ текущий элемент не следует за предыдущим
             if (i == nums.length || nums[i] != nums[i - 1] + 1) {
@@ -41,14 +41,11 @@ class Solution {
                 } else {
                     result.add(start + "->" + nums[i - 1]);
                 }
-                
-                // Обновляем начало для следующего диапазона
-                if (i < nums.length) {
-                    start = nums[i];
-                }
+
+                start = nums[i];
             }
         }
-        
+
         return result;
     }
 }
